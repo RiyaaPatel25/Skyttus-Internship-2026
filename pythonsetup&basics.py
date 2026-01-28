@@ -16,8 +16,8 @@ fahrenheit = (celsius * 9/5 ) + 32
 print("Temperature in Fahrenheit: ", fahrenheit)
 
 #store your name in variable and print it in uppercase
-a = "Riya"
-print(a.upper())
+name = "Riya"
+print(name.upper())
 
 #Ask the user for their birthyear and calculate their current age
 birthyear = int(input("Enter your birthyear: "))
@@ -26,11 +26,11 @@ currentage = currentyear - birthyear
 print("Your current age is ", currentage)
 
 #program to swap the values of two variables
-a = float(input("Enter the value of a : "))
-b = float(input("Enter the value of b : "))
-a, b = b, a
-print("a = ",a)
-print("b = ",b)
+a1 = float(input("Enter the value of a1 : "))
+b1 = float(input("Enter the value of b1 : "))
+a1, b1 = b1, a1
+print("a1 = ",a1)
+print("b1 = ",b1)
 
 #Calculate the area of rectangle from user inputs
 length = float(input("Enter the length of Rectangle: "))
@@ -48,7 +48,7 @@ else:
     print("Zero")   
 
 #Ask for two numbers and print their average
-a = float(input("Enter the value of a: "))
-b = float(input("Enter the value of b: "))
-ave = (a + b)/2
+a2 = float(input("Enter the value of a2: "))
+b2 = float(input("Enter the value of b2: "))
+ave = (a2 + b2)/2
 print("Average of numbers is ", ave)
