@@ -1,55 +1,55 @@
 #Calculate the remainder of two numbers
 a = 20
 b = 3
-r = a % b 
-print("Remainder is ", r)
+c = a % b 
+print("Remainder is ", c)
 
 #Check if number is even or odd 
-a = int(input("Enter the number: "))
-if a % 2 == 0:
+d = int(input("Enter the number: "))
+if d % 2 == 0:
     print("Number is Even.")
 else:
     print("Number is Odd.")
 
 #Compare two number and print the larger one
-a = int(input("Enter the value of a: "))
-b = int(input("Enter the value of b: "))
-if a > b:
-    print("a is larger.")
+e = int(input("Enter the value of e: "))
+f = int(input("Enter the value of f: "))
+if e > f:
+    print("e is larger.")
 else:
-    print("b is larger.")
+    print("f is larger.")
 
 #A program to calculate the square and cube of a number
-a = int(input("Enter the number: "))
-s = a ** 2
-c = a ** 3
-print("Square of the number is ", s)
-print("Cube of the number is ", c)
+g = int(input("Enter the number: "))
+square = g ** 2
+cube = g ** 3
+print("Square of the number is ", square)
+print("Cube of the number is ", cube)
 
 #Check if two entered number are equal
-a = int(input("Enter the value of a: "))
-b = int(input("Enter the value of b: "))
-if a == b:
+h = int(input("Enter the value of h: "))
+i = int(input("Enter the value of i: "))
+if h == i:
     print("Numbers are Equal")
 else:
     print("Numbers are not Equal")
 
 #Take two numbers and print true if both are positive else false
-a = int(input("Enter the value of a: "))
-b = int(input("Enter the value of b: "))
-if a > 0 and b > 0: 
+j = int(input("Enter the value of j: "))
+k = int(input("Enter the value of k: "))
+if j > 0 and k > 0: 
     print("True")
 else:
     print("False")
 
 #Program to convert float to integer
-a = 5.4
-r = round(a)
-print(r)
+l = 5.4
+m = round(l)
+print(m)
 
 #Take a number as string, convert into int, multiply by 10
-a = input("Enter: ")
-r1 = int(a)
+r = input("Enter: ")
+r1 = int(r)
 r2 = r1 * 10
 print("Integer number is ",r1)
 print("Answer is ", r2)
@@ -62,11 +62,11 @@ else:
     print("You're not Eligible")
 
 #Divide two numbers and calculate quotient and remainder
-a = int(input("Enter the value of a: "))
-b = int(input("Enter the value of b: "))
-q = a // b
-r = a % b
-print("Quotient is ", q)
-print("Remainder is ", r)
+a1 = int(input("Enter the value of a: "))
+b1 = int(input("Enter the value of b: "))
+quotient = a // b
+remainder = a % b
+print("Quotient is ", quotient)
+print("Remainder is ", remainder)
 
 
