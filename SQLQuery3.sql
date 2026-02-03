@@ -23,7 +23,7 @@ INSERT INTO employees VALUES
 (102, 'Maitri', 2, 55000),
 (103, 'Jainee', 1, 65000),
 (104, 'Dhruvi', 3, 40000),
-(105, 'Priya', 3, 70000),
+(105, 'Amit', 3, 70000),
 (106, 'Diya', NULL, 35000);
 
 --Display employee name with department name
@@ -58,6 +58,16 @@ FROM employees e
 LEFT JOIN department d
 ON d.dept_id = e.dept_id
 WHERE d.dept_id IS NUll;
+
+
+
+
+
+
+
+
+
+
 
 
 
