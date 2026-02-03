@@ -33,15 +33,4 @@ ORDER BY marks DESC;
 
 --Display top 3 scorer
 SELECT TOP 3 * FROM students
-ORDER BY marks DESC
-
-
-
-
-
-
-
-
-
-
-
+ORDER BY marks DESC;
